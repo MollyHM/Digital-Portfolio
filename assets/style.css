@@ -1638,6 +1638,15 @@ the normal document flow. So this helps it to account to the extra length*/
     z-index: 0;
 }
 
+.NSB_Color_Strip_Thin {
+    margin-top: 35vh;
+    width: 100%;
+    height: .5vh;
+    background-color: #E8AE42;
+    position: absolute;
+    z-index: 0;
+}
+
 .NSBank_Welcome_img {
     width: 100%;
     max-width: 200px;
@@ -1668,6 +1677,32 @@ the normal document flow. So this helps it to account to the extra length*/
     margin-right: 5rem;
 }
 
+.NSB_Problem_Header {
+    width: 50%;
+    height: 10vh;
+    background-color: #6FC3B2;
+    display: flex;
+    /* Center vertically */
+    align-items: center;
+}
+
+.NSB_Problem_Header h2 {
+    padding-left: .5rem;
+}
+
+.NSB_Solution_Header {
+    width: 50%;
+    height: 10vh;
+    background-color: #E8AE42;
+    display: flex;
+    /* Center vertically */
+    align-items: center;
+}
+
+.NSB_Solution_Header h2 {
+    padding-left: .5rem;
+}
+
 .NSB_ProblemStatment {
     width: 45%;
     /* Adjust the width to your preference */
@@ -1692,6 +1727,21 @@ the normal document flow. So this helps it to account to the extra length*/
 
 .NSB_Research_Container {
     display: flex;
+}
+
+.NSB_R_D_Header {
+    margin-top: 5vh;
+    width: 40vh;
+    height: 7vw;
+    background-color: #6FC3B2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.NSB_R_D_Header h2 {
+    padding-left: .5rem;
 }
 
 .NSB_Research_Para {
@@ -1787,8 +1837,15 @@ the normal document flow. So this helps it to account to the extra length*/
     max-width: 100%;
 }
 
-.NSB_Key_Features h2 {
-    margin-top: 5rem;
+.NSB_Key_Header {
+    margin-top: 5vh;
+    width: 40vh;
+    height: 7vw;
+    background-color: #E8AE42;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .NSB_Key_Features p {
